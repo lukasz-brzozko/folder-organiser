@@ -28,6 +28,8 @@ const lookForFilesToMove = (pathUrl = url + query) => {
 
       const filename = path.basename(file);
 
+      console.log("MOVING" + filename);
+
       moveFile(file, path.resolve(url, ext, filename), ext);
     });
 
@@ -73,6 +75,8 @@ const moveFile = (filePath, destPath, additionalFolderName) => {
       if (e.errno === -4058) {
         fs.mkdirSync(path.join(url, additionalFolderName));
         fs.renameSync(filePath, destPath);
+      } else {
+        console.log(e);
       }
     }
   } else {
@@ -86,3 +90,7 @@ const moveFile = (filePath, destPath, additionalFolderName) => {
 do {
   lookForFilesToMove();
 } while (filesToMove > 0);
+
+console.log("DONE");
+
+setTimeout(() => {}, 1000);
