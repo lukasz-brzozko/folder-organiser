@@ -11,10 +11,12 @@ const initOrganising = (url) => {
     nodir: true,
     ignore: [
       __filename,
-      `${__dirname}/*package*.json`,
-      `${__dirname}/.gitignore`,
+      `${url}/*package*.json`,
+      `${url}/.gitignore`,
+      `${url}/index.js`,
+      `${url}/*.ini`,
+      `${url}/*.bat`,
     ],
-    // ignore: `${url}/*(*package*.json|*js)`,
   };
 
   const lookForFilesToMove = (pathUrl = url + query) => {
@@ -33,7 +35,6 @@ const initOrganising = (url) => {
       });
 
       setFilesToMoveNumber();
-      // filesToMove || console.log("DONE");
     }
   };
 
