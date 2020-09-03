@@ -9,6 +9,7 @@ const initOrganising = (url) => {
   const optionsGlobal = {
     nodir: true,
     ignore: [
+      process.argv0,
       __filename,
       `${url}/*package*.json`,
       `${url}/.gitignore`,

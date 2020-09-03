@@ -14,6 +14,7 @@ inquirer
       name: "folder-to-organise",
       message: "Which folder would you like to organise?",
       basePath: "../",
+      // basePath: ".", //for exe files
     },
   ])
   .then(function (answers) {
