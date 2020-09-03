@@ -3,7 +3,6 @@ const path = require("path");
 const glob = require("glob");
 
 const initOrganising = (url) => {
-  // const url = path.join(__dirname, "..", "..");
   const query = "/*.*";
   let filesToMove = 1;
 
