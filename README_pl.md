@@ -1,6 +1,6 @@
 [English](README.md) :point_left:
 
-# Organizator folderu
+# Organizator folderów
 
 Aplikacja służąca do organizowania folderów systemowych poprzez przenoszenie plików do odpowiednich folderów.
 
@@ -10,7 +10,7 @@ Aplikacja służąca do organizowania folderów systemowych poprzez przenoszenie
 <img src="./readme-assets/folder-organiser.gif" alt="podgląd projektu"/>
 
 
-## Jak to działa?
+## Działanie
   
 Użytkownik wskazuje folder, który ma zostać uporządkowany. Następnie aplikacja znajduje i przenosi "wolne" pliki do odpowiednich folderów. Pliki grupowane są według rozszerzenia. 
   
