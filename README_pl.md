@@ -43,6 +43,9 @@ Uruchom aplikację
   node index.js
 ```
 
+## Dostępność
+
+Aplikacja testowana na urządzeniu z systemem Windows 10.
 
 ## Licencja
 
