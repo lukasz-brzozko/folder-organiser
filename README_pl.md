@@ -7,10 +7,10 @@ Aplikacja służąca do organizowania folderów systemowych poprzez przenoszenie
 
 ## Zdjęcia
 
-<img src="./readme-assets/folder-organiser.gif" alt="podgląd projektu" width="500px"/>
+<img src="./readme-assets/folder-organiser.gif" alt="podgląd projektu"/>
 
 
-## Jak to działa
+## Jak to działa?
   
 Użytkownik wskazuje folder, który ma zostać uporządkowany. Następnie aplikacja znajduje i przenosi "wolne" pliki do odpowiednich folderów. Pliki grupowane są według rozszerzenia. 
   
